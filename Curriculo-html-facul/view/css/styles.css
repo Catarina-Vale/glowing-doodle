@@ -1,0 +1,27 @@
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: auto;
+    border: 1px solid black;
+}
+
+.header {
+    border-bottom: 1px solid black;
+}
+
+.support {
+    float: right;
+    width: 30%;
+    border-left: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main h2 {
+    margin-top: 70px;
+}
