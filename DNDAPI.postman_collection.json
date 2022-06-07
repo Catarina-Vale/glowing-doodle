@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "2eb25600-b446-4b28-ab01-7fcc58e6c8fc",
+		"name": "DNDAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16889027"
+	},
+	"item": [
+		{
+			"name": "All Spells",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.dnd5eapi.co/api/spells",
+					"protocol": "https",
+					"host": [
+						"www",
+						"dnd5eapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"spells"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All classes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.dnd5eapi.co/api/classes",
+					"protocol": "https",
+					"host": [
+						"www",
+						"dnd5eapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"classes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Classes by name",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
